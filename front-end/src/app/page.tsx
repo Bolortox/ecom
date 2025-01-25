@@ -22,10 +22,10 @@ export default function Home() {
     getProd();
   }, []);
   return (
-    <div className="w-full flex justify-center items-cetner">
+    <div className="w-full flex justify-center items-center">
       <div className="w-[1038px] flex justify-center items-center pt-[21px]">
         <div className="grid grid-cols-4 grid-rows-2 gap-[21px]">
-          {products?.map((prod: Product) => (
+          {products?.map((prod) => (
             <div key={prod.id} className=" w-[245px] h-[391px]">
               <div className=" ">
                 <img src={prod.imageUrl} className="w-[244px] h-[331px] rounded-2xl" />
