@@ -21,10 +21,10 @@ export const Header = () => {
         <div className="flex items-center gap-5">
           <Heart />
           <Basket />
-          <button className=" w-[101px] h-[36px] border border-[#2563EB] bg-black rounded-[20px]">
+          <button className=" w-[101px] h-[36px] border border-[#2563EB] bg-black rounded-[20px] ">
             Бүртгүүлэх
           </button>
-          <button className="bg-[#2563EB] w-[86px] h-[36px] rounded-[20px]">
+          <button className="bg-[#2563EB] w-[86px] h-[36px] rounded-[20px] ">
             Нэвтрэх
           </button>
         </div>
